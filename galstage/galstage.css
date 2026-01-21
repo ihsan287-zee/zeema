@@ -1,0 +1,71 @@
+.teams .row{
+    display: flex;
+    padding: 5px;
+    margin-bottom: 10px;  
+}
+.teams .team{
+    width: 32%;
+    height: 400px;
+    margin-right: 15px;
+}
+.teams .team4{
+    background: url("../img/IMG_2347.JPG");
+    background-size: cover;
+    background-position: center;
+}
+.teams .team5{
+    background: url("../img/builder2.jpg");
+    background-size: cover;
+    background-position: center;
+}
+.teams .team6{
+    background: url("../img/IMG_2353.JPG");
+    background-size: cover;
+    background-position: center;
+}
+.teams .team7{
+    background: url("../img/IMG_2355.JPG");
+    background-size: cover;
+    background-position: center;
+}
+.teams .team8{
+    background: url("../img/IMG_2350.JPG");
+    background-size: cover;
+    background-position: center;
+}
+.teams .team9{
+    background: url("../img/IMG_2344.JPG");
+    background-size: cover;
+    background-position: center;
+}
+.teams .team10{
+    background: url("../img/IMG_2354.JPG");
+    background-size: cover;
+    background-position: center;
+}
+.teams .team11{
+    background: url("../img/IMG_2356.JPG");
+    background-size: cover;
+    background-position: center;
+}
+.teams .team12{
+    background: url("../img/IMG_E1533.JPG");
+    background-size: cover;
+    background-position: center;
+}
+.teams .row h4{
+    padding: 20px;
+    margin-top: 320px;
+}
+
+
+
+@media screen and (max-width:600px){
+    .teams .row{
+        flex-direction: column;
+    }
+    .teams .team{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
